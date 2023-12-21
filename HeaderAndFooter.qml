@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
 Item {
-    Layout.fillHeight: true
+    height: 64
     Layout.fillWidth: true
     Rectangle{
         anchors.fill: parent

@@ -4,6 +4,7 @@ import QtQuick.Layouts 1.1
 Item {
     Layout.fillHeight: true
     Layout.fillWidth: true
+    Layout.margins: 2
     property alias boxText: text.comText
     Rectangle{
         TextInCenter{ id: text }
